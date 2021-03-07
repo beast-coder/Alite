@@ -1,0 +1,23 @@
+{
+    "name": "alite/alite",
+    "description": "Alite a very light framework.",
+    "keywords": ["framework", "php", "php light framework"],
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.0",
+        "alite/engine": "^v1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "App/Classes"
+        ],
+        "psr-4": {
+            "App\\": ["app/"],
+            "Service\\": "services/"
+        },
+        "files": [
+            "app/Function/Function.php"
+        ]
+    }
+}
