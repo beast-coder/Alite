@@ -11,12 +11,8 @@ class Example extends AbstractController {
         
     }
 
-    public function index($param) {
+    public function index($param = "") {
         echo 'Example Controller - ' . $param;
-    }
-
-    public function show($ll = '') {
-        
     }
 
 }

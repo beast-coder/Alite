@@ -6,8 +6,7 @@
  * array value : controller name.
  */
 $route['/'] = 'Index';
-$route['/example'] = 'Example/index';
-$route['/example/(:any)'] = 'Example/index/$1';
-
+$route['example/(:any)'] = 'Example/index/$1';
+$route['example'] = 'Example/index';
 
 return $route;

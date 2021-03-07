@@ -12,7 +12,7 @@ class Index extends AbstractController {
     }
 
     public function index() {
-        'Index Controller';
+        echo 'Index Controller';
     }
 
 }
