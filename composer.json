@@ -1,11 +1,11 @@
 {
     "name": "alite/alite",
-    "description": "Alite a very light framework.",
+    "description": "Alite a very light PHP framework.",
     "keywords": ["framework", "php", "php light framework"],
     "license": "proprietary",
     "type": "project",
     "require": {
-        "php": ">=5.6.0",
+        "php": ">=7.0",
         "alite/engine": "^v1.0.0"
     },
     "autoload": {

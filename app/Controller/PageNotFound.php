@@ -2,9 +2,9 @@
 
 namespace App\Controller;
 
-use App\Controller\Abstr\AbstractController;
+use Alite\Controller\BaseController;
 
-class PageNotFound extends AbstractController {
+class PageNotFound extends BaseController {
 
     public function __construct() {
         

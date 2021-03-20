@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4a26d489fe0d72c8b81bedd2db6439dd",
+    "packages": [
+        {
+            "name": "alite/engine",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theamitkrsingh/Alite-Engine.git",
+                "reference": "a02fa1d2813156b2ddcc85a1c74b95b9e7156f41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theamitkrsingh/Alite-Engine/zipball/a02fa1d2813156b2ddcc85a1c74b95b9e7156f41",
+                "reference": "a02fa1d2813156b2ddcc85a1c74b95b9e7156f41",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": []
+            },
+            "autoload": {
+                "psr-4": {
+                    "Alite\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Amit Singh",
+                    "email": "dev.singhamit@gmail.com"
+                }
+            ],
+            "description": "Alite Engine",
+            "keywords": [
+                "alite",
+                "library"
+            ],
+            "support": {
+                "issues": "https://github.com/theamitkrsingh/Alite-Engine/issues",
+                "source": "https://github.com/theamitkrsingh/Alite-Engine/tree/v1.0.0"
+            },
+            "time": "2021-03-07T09:28:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

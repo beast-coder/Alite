@@ -2,10 +2,9 @@
 
 namespace App\Controller;
 
-use App\Controller\Abstr\AbstractController;
-use Services\Database\Database;
+use Alite\Controller\BaseController;
 
-class Example extends AbstractController {
+class Example extends BaseController {
 
     public function __construct() {
         

@@ -2,7 +2,9 @@
 
 namespace App\Model;
 
-class Example extends Abstr\AbstractModel {
+use Alite\Model\BaseModel;
+
+class Example extends BaseModel {
 
     protected $table = 'example';
 
