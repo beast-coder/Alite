@@ -6,7 +6,9 @@ $route = [];
  * array index : pattern.
  * array value : controller name.
  */
-$route['/'] = 'Index';
+$route['/'] = 'Login';
+$route['dashboard'] = 'Dashboard';
+$route['admin/user-edit/(:any)'] = 'Admin/userAdd/$1';
 $route['test/:num/test2'] = [
     '/:any/fdfdf' => [
         '/asdfdf' => 'Dashboard2',

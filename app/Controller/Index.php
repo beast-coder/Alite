@@ -5,7 +5,7 @@ namespace App\Controller;
 use Alite\Controller\BaseController;
 use App\Model\Example;
 
-class Index extends BaseController {
+class Index extends MyController {
 
     public function __construct(Example $e) {
         parent::__construct();

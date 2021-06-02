@@ -4,6 +4,6 @@
     </head>
 
     <body>
-        <h2><?= $this->contents; ?></h2>
+        <h2><?= $content; ?></h2>
     </body>
 </html>

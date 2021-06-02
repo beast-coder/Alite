@@ -1,14 +1,8 @@
 <?php
 
-$adminRoutes = require ABSPATH . '/routes/admin-routes.php';
+$adminRoutes = require ROOTPATH . '/routes/admin-routes.php';
 
-/**
- * Use Regex for Routing.
- * array index : pattern.
- * array value : controller name.
- */
-$route = [];
-$route['admin'] = $adminRoutes;
+$route['fmadmin'] = $adminRoutes;
 $route['/'] = 'Index';
 $route['example/(:any)'] = 'Example/index/$1';
 $route['example'] = 'Example/index';

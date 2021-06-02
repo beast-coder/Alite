@@ -3,12 +3,25 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-define('ABSPATH', realpath(__DIR__ . '/..'));
-$config = require ABSPATH . '/config/config.php';
-require ABSPATH . '/config/constants.php';
-$loader = require_once ABSPATH . '/vendor/autoload.php';
-$container = require ABSPATH . '/services/register-services.php';
+if (!defined('ENV')) {
+    if ($_SERVER['HTTP_HOST'] == 'example.local') {
+        define('ENV', 'local');
+    } else {
+        define('ENV', 'production');
+    }
+}
 
+session_set_cookie_params(
+        0, '/', '', false, true
+);
+session_name('dfer33f');
+@session_start();
 
-$app = new Alite\Engine\Bootstrap($config, $container);
-$app->run();
+date_default_timezone_set('Asia/Kolkata');
+
+define('ROOTPATH', realpath(__DIR__ . '/..'));
+
+$loader = require_once ROOTPATH . '/vendor/autoload.php';
+
+$app = new Alite\Engine\Bootstrap();
+$app->init();
